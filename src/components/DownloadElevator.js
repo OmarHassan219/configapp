@@ -2,7 +2,6 @@ import React from 'react'
 import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 import { PDFViewer } from '@react-pdf/renderer';
 import ReactPDF from '@react-pdf/renderer';
-import Pdf from "react-to-pdf";
 import Table from '@mui/joy/Table';
 import ReactDOM from "react-dom";
 import { PDFDownloadLink } from '@react-pdf/renderer';

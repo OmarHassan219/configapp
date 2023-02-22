@@ -22,7 +22,6 @@ import { PDFViewer } from '@react-pdf/renderer';
 import ReactPDF from '@react-pdf/renderer';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 import DownloadElevator from '../components/DownloadElevator';
-import Pdf from "react-to-pdf";
 import DownloadEscalator from '../components/DownloadEscalator';
 
 
