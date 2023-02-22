@@ -1,0 +1,160 @@
+[ {
+      "ProductID":"H200",
+      "ProductDescription":"Our hydraulic home lift is reliable and remarkably versatile and adaptable",
+      "Image":"https://pbs.twimg.com/media/Fb4n10xUsAE8uDw?format=jpg&name=large",
+      "Characteristics":[
+         {
+            "CharacteristicName":"Number of Stops",
+            "Question":"Select Number of Stops",
+            "DetailedDescription":"The selection describes the Number of Stops",
+            "Value":[
+               "Two Stops",
+               "Three Stops",
+               "Four Stops"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Number_of_Stops"
+         },
+         {
+            "CharacteristicName":"Configuration",
+            "Question":"Select Configuration",
+            "DetailedDescription":"The selection describes the Configuration",
+            "Value":[
+               "Parallel",
+               "Criss-Cross",
+               "Multiple Parallel"
+            ],
+            "Type":"radio",
+            "IsMandatory":true,
+            "formControlName":"Configuration"
+         },
+         {
+            "CharacteristicName":"Horigental Distance (In ft)",
+            "DetailedDescription":"The selection describes the Horigental Distance of Escalator",
+            "Value":"",
+            "Type":"number",
+            "IsMandatory":true,
+            "formControlName":"Horizontal_Model"
+         },
+         {
+            "CharacteristicName":"Vertical Distance (In ft)",
+            "DetailedDescription":"The selection describes the Vertical Distance of Escalator",
+            "Value":"8",
+            "Type":"number",
+            "IsMandatory":true,
+            "formControlName":"Vertical_Model"
+         },
+         {
+            "CharacteristicName":"Cabin Type",
+            "DetailedDescription":"The selection describes the Cabin Type",
+            "Value":[
+               "Platform With Ceiling",
+               "Cabin With Sliding Doors",
+               "Cabin Without Doors",
+               "Cabin With Folding Doors"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Cabin_Type"
+         },
+         {
+            "CharacteristicName":"Traffic Model*",
+            "DetailedDescription":"The selection describes the Configuration of Traffic",
+            "Value":[
+               {
+                  "CheckBoxControlName":"Pattern_A",
+                  "DisplayLabel":"Pattern-A"
+               },
+               {
+                  "CheckBoxControlName":"Pattern_B",
+                  "DisplayLabel":"Pattern-B"
+               },
+               {
+                  "CheckBoxControlName":"Pattern_C",
+                  "DisplayLabel":"Pattern-C"
+               }
+            ],
+            "Type":"checkbox",
+            "IsMandatory":true,
+            "formControlName":"Traffic_Model"
+         }
+      ]
+    },
+   {
+      "ProductID":"H300",
+      "ProductDescription":"Our hydraulic home lift is reliable and remarkably versatile and adaptable",
+      "Image":"https://s3-us-west-2.amazonaws.com/issuewireassets/primg/84754/h300-home-lifts1753988224.jpg",
+      "Characteristics":[
+         {
+            "CharacteristicName":"Configuration Model",
+            "Question":"Select Configuration Model",
+            "DetailedDescription":"The selection describes the Configuration of Escalator",
+            "Value":[
+               "Parallel",
+               "Criss-Cross",
+               "Multiple Parallel"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Config_Model",
+            "ngModelfield":"Config_ngModel"
+         },
+         {
+            "CharacteristicName":"Horigental Distance (In ft)",
+            "DetailedDescription":"The selection describes the Horigental Distance of Escalator",
+            "Value":"6",
+            "Type":"number",
+            "IsMandatory":false,
+            "formControlName":"Horizontal_Model",
+            "ngModelfield":"Horizontal_ngModel"
+         },
+         {
+            "CharacteristicName":"Vertical Distance (In ft)",
+            "DetailedDescription":"The selection describes the Vertical Distance of Escalator",
+            "Value":"8",
+            
+            "Type":"number",
+            "IsMandatory":false,
+            "formControlName":"Vertical_Model",
+            "ngModelfield":"Vertical_ngModel"
+         },
+         {
+            "CharacteristicName":"Cabin Type",
+            "DetailedDescription":"The selection describes the Cabin Type",
+            "Value":[
+               "Platform With Ceiling",
+               "Cabin With Sliding Doors",
+               "Cabin Without Doors",
+               "Cabin With Folding Doors"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Cabin_Type",
+            "ngModelfield":"Cabin_Type_ngModel"
+         },
+         {
+            "CharacteristicName":"Traffic Model*",
+            "DetailedDescription":"The selection describes the Configuration of Traffic",
+            "Value":[
+               {
+                  "CheckBoxControlName":"Pattern_A",
+                  "DisplayLabel":"Pattern-A"
+               },
+               {
+                  "CheckBoxControlName":"Pattern_B",
+                  "DisplayLabel":"Pattern-B"
+               },
+               {
+                  "CheckBoxControlName":"Pattern_C",
+                  "DisplayLabel":"Pattern-C"
+               }
+            ],
+            "Type":"checkbox",
+            "IsMandatory":true,
+            "formControlName":"Traffic_Model"
+         }
+      ]
+   }
+
+]

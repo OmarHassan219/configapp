@@ -1,0 +1,6 @@
+{ "home": "Home",
+          "cart":"Cart",
+          "profile":"Profile",
+          "language":"Language",
+          "logout":"Logout"
+}

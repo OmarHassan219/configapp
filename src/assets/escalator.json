@@ -1,0 +1,47 @@
+[{
+
+"escalatortypes":[
+    {
+"description":"Escalator Types",
+"value":["Parallel" , "Multi Parallel" , "Criss Cros"]
+},
+    {
+"description":"motor type",
+"value":["DC" , "AC"]
+},
+    {
+"description":"Escalator Height",
+"value":""
+},
+    {
+"description":"Escalator Width",
+"value":""
+},
+{
+"description":"Escalator speed",
+"value":""
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+}]

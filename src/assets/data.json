@@ -1,0 +1,181 @@
+[ {
+      "ProductID":"H200",
+      "ProductDescription":"Our hydraulic home lift is reliable and remarkably versatile and adaptable",
+      "Image":"https://pbs.twimg.com/media/Fb4n10xUsAE8uDw?format=jpg&name=large",
+      "Characteristics":[
+         {
+            "CharacteristicName":"Number of Stops",
+            "Question":"Select Number of Stops",
+            "DetailedDescription":"The selection describes the Number of Stops",
+            "Value":[
+               "Two Stops",
+               "Three Stops",
+               "Four Stops"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Number_of_Stops"
+         },
+         {
+            "CharacteristicName":"Cabin Style",
+            "Question":"Select Cabin Style",
+            "DetailedDescription":"The selection describes the Cabin Style",
+            "Value":[
+               "Mirror Silver Pattern",
+               "Color etched hairline ",
+               "Mirror Silver Stainless"
+            ],
+            "Type":"radio",
+            "IsMandatory":true,
+            "formControlName":"Cabin_Style"
+         },
+         {
+            "CharacteristicName":"Cabin floor Color",
+            "Question":"Select Cabin floor Color",
+            "DetailedDescription":"The selection describes the Cabin floor Color",
+            "Type":"color",
+            "IsMandatory":true,
+            "formControlName":"Cabin floor Color"
+         },
+         {
+            "CharacteristicName":"Door Styles",
+            "Question":"Select Door Styles",
+            "DetailedDescription":"The selection describes the Door Styles",
+            "Value":[
+               "Single Speed side open",
+               "Two Speed Side Open",
+               "Single Speed Center open",
+               "Two Speed Center Open"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Door Styles"
+         },
+         {
+            "CharacteristicName":"Door Color",
+            "Question":"Select Door Color",
+            "DetailedDescription":"The selection describes the Door Color",
+            "Type":"color",
+            "IsMandatory":true,
+            "formControlName":"Door Color"
+         },
+         {
+            "CharacteristicName":"Horizontal Distance (In ft)",
+            "DetailedDescription":"The selection describes the Horigental Distance of Elevator",
+            "Value":"",
+            "Type":"number",
+            "IsMandatory":true,
+            "formControlName":"Horizontal_Model"
+         },
+         {
+            "CharacteristicName":"Vertical Distance (In ft)",
+            "DetailedDescription":"The selection describes the Vertical Distance of Elevator",
+            "Value":"8",
+            "Type":"number",
+            "IsMandatory":true,
+            "formControlName":"Vertical_Model"
+         },
+         {
+            "CharacteristicName":"Cabin Type",
+            "DetailedDescription":"The selection describes the Cabin Type",
+            "Value":[
+               "Platform With Ceiling",
+               "Cabin With Sliding Doors",
+               "Cabin Without Doors",
+               "Cabin With Folding Doors"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Cabin_Type"
+         }
+        
+      ]
+    },
+   {
+      "ProductID":"H300",
+      "ProductDescription":"Our hydraulic home lift is reliable and remarkably versatile and adaptable",
+      "Image":"https://s3-us-west-2.amazonaws.com/issuewireassets/primg/84754/h300-home-lifts1753988224.jpg",
+      "Characteristics":[
+        
+         {
+            "CharacteristicName":"Horizontal Distance (In ft)",
+            "DetailedDescription":"The selection describes the Horigental Distance of Elevator",
+            "Value":"",
+            "Type":"number",
+            "IsMandatory":true,
+            "formControlName":"Horizontal_Model",
+            "ngModelfield":"Horizontal_ngModel"
+         },
+         {
+            "CharacteristicName":"Vertical Distance (In ft)",
+            "DetailedDescription":"The selection describes the Vertical Distance of Elevator",
+            "Value":"",
+            
+            "Type":"number",
+            "IsMandatory":true,
+            "formControlName":"Vertical_Model",
+            "ngModelfield":"Vertical_ngModel"
+         },
+         {
+            "CharacteristicName":"Cabin Type",
+            "DetailedDescription":"The selection describes the Cabin Type",
+            "Value":[
+               "Platform With Ceiling",
+               "Cabin With Sliding Doors",
+               "Cabin Without Doors",
+               "Cabin With Folding Doors"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Cabin_Type",
+            "ngModelfield":"Cabin_Type_ngModel"
+         },
+         {
+            "CharacteristicName":"Cabin Style",
+            "Question":"Select Cabin Style",
+            "DetailedDescription":"The selection describes the Cabin Style",
+            "Value":[
+               "Mirror Silver Pattern",
+               "Color etched hairline ",
+               "Mirror Silver Stainless"
+            ],
+            "Type":"radio",
+            "IsMandatory":true,
+            "formControlName":"Cabin_Style"
+         },
+         {
+            "CharacteristicName":"Cabin floor Color",
+            "Question":"Select Cabin floor Color",
+            "DetailedDescription":"The selection describes the Cabin floor Color",
+            "Type":"color",
+            "IsMandatory":true,
+            "formControlName":"Cabin floor Color"
+         },
+         {
+            "CharacteristicName":"Door Styles",
+            "Question":"Select Door Styles",
+            "DetailedDescription":"The selection describes the Door Styles",
+            "Value":[
+               "Single Speed side open",
+               "Two Speed Side Open",
+               "Single Speed Center open",
+               "Two Speed Center Open"
+            ],
+            "Type":"dropdown",
+            "IsMandatory":true,
+            "formControlName":"Door Styles"
+         },
+         {
+            "CharacteristicName":"Door Color",
+            "Question":"Select Door Color",
+            "DetailedDescription":"The selection describes the Door Color",
+            "Type":"color",
+            "IsMandatory":true,
+            "formControlName":"Door Color"
+         }
+         
+         
+      ]
+   }
+
+]
